@@ -1,0 +1,20 @@
+LSE
+Giuseppe Galioto
+Jorge Sanjuan Garcia
+
+Entrega 1 - Entorno de desarollo
+---------------------------------
+El script es totalmente automatico y configura el entorno con:
+
+--GNU ARM Toolchain
+
+--ST-LINK v1
+
+--ECLIPSE
+
+Para la instalacion de ST-LINK y ECLIPSE se han empleado los directorios /opt/stm32/st-link.git y /opt/eclipse respectivamente.
+ 
+Se configura también el puerto USB para el ST-LINK de modo que
+se puedan utilizar las utilidades (st-util, st-flash etc.) en Eclipse.
+
+Se ha incluido también una libreria (libopencm3) de ejemplos para muchas arquitecturas.
