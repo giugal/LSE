@@ -1,0 +1,4 @@
+En esta práctica se ha aprendido cómo deben hacerse las implementaciones de algunas de las funcionalidad de tiempo real e interrupciones de FreeRTOS. Sin embargo, algunos temas no ha llegado a implementarse de manera óptima: 
+
+	- La gestión de los botones debería tener en cuenta además el rebote que existe 	como falling_edge al soltar el botón (soltar debería ser rising_edge).
+	- La UART no debería usar un semáforo. Debería enviar directamente a la cola. En 	las últimas pruebas se trató de implementar, pero no llegó a funcionar			correctamente de esta manera. 
